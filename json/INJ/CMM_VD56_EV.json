@@ -1,0 +1,35 @@
+{
+  "name": "CMM_VD56",
+  "tx_id": "6A2",
+  "rx_id": "682",
+  "protocol": "uds",
+  "key_type": "multi",
+  "keys": {
+    "key1": "7002"
+  },
+  "coding": true,
+  "errors": true,
+  "include_zone_object": "./data/IdentUDSECU.json",
+  "tabs": {
+    "ident": "Identification",
+    "tele": "Telecoding"
+  },
+  "zones": {
+    "2100": {
+      "id": "Configuration_Group_Data_List",
+      "tab": "tele",
+      "name": "Configuration group data list",
+      "byte": 0,
+      "type": "raw",
+      "form_type": "string"
+    },
+    "2101": {
+      "id": "Gauging_Group_Data_Values",
+      "name": "Gauging group data values",
+      "tab": "tele",
+      "byte": 0,
+      "type": "raw",
+      "form_type": "string"
+    }
+  }
+}
