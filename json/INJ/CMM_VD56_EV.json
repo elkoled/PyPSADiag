@@ -5,11 +5,7 @@
   "protocol": "uds",
   "key_type": "multi",
   "keys": {
-      "CIROCCO_EV": "2A94",
-      "CMM_VD56": "A729",
-      "BSI2010": "D91C",
-      "GENERIC_EV": "00E1",
-      "UDS_ALT": "968E"
+      "VCU": "0107"
   },
   "coding": true,
   "errors": true,

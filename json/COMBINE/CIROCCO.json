@@ -6,7 +6,11 @@
     "protocol": "uds",
     "key_type": "multi",
     "keys": {
-        "CIROCCO": "FAFA"
+        "MATT": "ECEC",
+        "CIROCCO": "FAFA",
+        "COMBINE_UDS (N2)": "DA33",
+        "COMBINE_UDS": "50A6",
+        "COMBINE_UDS_EV": "A13C"
     },
     "include_zone_object": "./data/IdentUDSECU.json",
     "tabs": {
